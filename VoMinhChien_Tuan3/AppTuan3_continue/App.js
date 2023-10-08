@@ -8,6 +8,7 @@ import Frame7 from "./components/Frame7";
 import Frame8 from "./components/Frame8";
 
 export default function App() {
+  
   return (
     // <Frame1></Frame1>
     // <Frame2></Frame2>
