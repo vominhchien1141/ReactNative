@@ -1,13 +1,16 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Page2_a from './component/Page2_a';
 import Page2_b from './component/Page2_b';
 import Page2_c from './component/Page2_c';
 import Tiki_Ok from './component/Tiki_Ok';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 
+// const Tab = createBottomTabNavigator();
 const Tab = createBottomTabNavigator();
+
 
 function MyTabs() {
   return (
@@ -15,12 +18,12 @@ function MyTabs() {
       tabBarOptions={{
         labelStyle: {
           textAlign: 'center',
-          fontSize: 10,
+          fontSize: 10, 
           fontWeight: 'bold',
         },
       }}>
       <Tab.Screen
-        name="Page2_a"
+        name="aaaaa"
         component={Page2_a}
         options={{ headerShown: false, }}
       />
